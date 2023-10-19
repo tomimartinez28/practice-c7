@@ -28,26 +28,28 @@ LISTAS
 # Accediendo a un elemento gracias al indice.
 
 
-""" alumnos = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+alumnos = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 print(alumnos[::-1])
 
- """
+
 
 
 
 # Desempaquetar listas
-""" numeros = ['lechuga', 'tomate', 'lechuga', 'zanahoria']
+numeros = ['lechuga', 'tomate', 'lechuga', 'zanahoria']
 
 cantidad = numeros.count('tomate')
 
 
-print(cantidad) """
+print(cantidad) 
 
 
 
 
 """
+ALGUNOS METODOS:
+
 append() => agrega un elemento al final de la lista
 insert(indice, elemento) => agregar un elemento en la posicion
 pop() => elimina el elemento en la posicion que le doy, tambien retorna ese elemento eliminado.
@@ -58,37 +60,42 @@ len()
 
 
 
-# LISTAS (check)
 
-# TUPLAS (check)
 """
+
+TUPLAS
+
 COLECCION DE DATOS, ORDENADAS e INMUTABLES.
 
 """
 
 
 
-# SETS O CONJUTNTOS 
+
 
 
 
 """
+SETS O CONJUTNTOS 
+
 COLECCION DE DATOS, UNICOS y DESORDENADOS
 - Que sean unicos nos permite eliminar duplicados
-- Realizar 
+
 """
 
-""" 
+
 conjunto = {'banana', 'manzana', 'frutilla', 'kiwi', 'banana', 'banana', 'manzana'}
 
 print(conjunto)
 
- """
 
-# DICCIONARIOS
+
+
 
 
 """
+
+DICCIONARIOS
 Estructura de datos:
 compuesto por clave-valor
 
